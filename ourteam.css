@@ -17,7 +17,7 @@ html, body {
 }
 
 .upper {
-    background: url('MAPS_BACKGROUND.PNG.') no-repeat center center;
+    background: url('BACKGROUND.jfif') no-repeat center center;
     background-size: cover;
     width: 100%; 
     height: 100vh; 
@@ -103,8 +103,7 @@ nav ul li a:hover {
     padding-bottom: 3%;
     padding-left: 10%;
     color:  #f0f0c9; opacity: 50;
-    text-align: left;
-    
+    text-align: left;   
 }
 
 .intro h4:hover {
@@ -126,7 +125,7 @@ nav ul li a:hover {
     width: 100%;
     position: absolute;
     padding-right: 41%;
-    margin-left: 27%;
+    margin-left: 26.5%;
     margin-top: 14%;
 }
 
@@ -196,6 +195,7 @@ nav ul li a:hover {
     object-fit: cover; 
     border-radius: 100%;
     transition: transform 0.2s ease;
+    position: relative;
 }.Mmembers img {
     width: 100px; 
     height: 100px; 
@@ -207,7 +207,8 @@ nav ul li a:hover {
     height: 100px;
     object-fit: cover;  
     border-radius: 100%;
-    transition: transform 0.2s ease; }
+    transition: transform 0.2s ease;
+    position: relative;  }
 
 
 .Lmembers img:hover {
